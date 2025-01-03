@@ -1,0 +1,11 @@
+đưa lần đầu
+git init  (Lệnh khởi tạo git trong project)
+git remote add origin https://github.com/htmc-1707/ASP.net_HITC.git (lấy trong git)
+git add . (thêm toàn bộ code vào staging)
+git commit -m "nội dung commit"  (commit nội dung code, nên để ngắn gọn nha)
+git push origin master (master là tên nhanh, nếu các bạn ở nhánh khách thì thay master đi nha, lệnh này để đẩy code lên github)
+
+cập nhật 
+git add . (thêm toàn bộ code vào staging)
+git commit -m "nội dung commit"  (commit nội dung code, nên để ngắn gọn nha)
+git push origin master (master là tên nhanh, nếu các bạn ở nhánh khách thì thay master đi nha, lệnh này để đẩy code lên github)

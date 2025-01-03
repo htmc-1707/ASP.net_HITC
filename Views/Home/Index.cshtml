@@ -120,15 +120,21 @@
                 <div class="row no-gutters items-wrap">
                     <div class="col-md col-6">
                         <figure class="card-product-grid card-sm">
-                            <a href="#" class="img-wrap">
+                            <a href="#" class="img-wrap" onclick="redirectToDetail()">
                                 <img src="~/Content/images/items/3.jpg">
                             </a>
                             <div class="text-wrap p-3">
-                                @Html.ActionLink("Go to Home", "detail", "Product", null, new {})
-
+                                <a href="#" onclick="redirectToDetail()">Go to Home</a>
                                 <span class="badge badge-danger"> -20% </span>
                             </div>
                         </figure>
+
+                        <script>
+    function redirectToDetail() {
+        window.location.href = '@Url.Action("detail", "Product")';
+    }
+                        </script>
+
                     </div> <!-- col.// -->
                     <div class="col-md col-6">
                         <figure class="card-product-grid card-sm">
